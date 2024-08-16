@@ -36,10 +36,12 @@ Workflow:
 # Train the Model:
 
 Execute the training pipeline to process data, train the model, and evaluate its performance.
-Deploy the Model:
+
+# Deploy the Model:
 
 Run the deployment pipeline to update and deploy the model if it meets performance thresholds.
-Interact with the Model:
+
+# Interact with the Model:
 
 Use the Streamlit application to input new data and obtain predictions from the deployed model.
 
