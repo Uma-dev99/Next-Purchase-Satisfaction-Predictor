@@ -28,9 +28,10 @@ Create an interactive web application using Streamlit to showcase the model's pr
 Allow users to input features for a product and receive predicted satisfaction scores.
 Technologies:
 
-ZenML: For building and managing the machine learning pipeline, ensuring seamless integration and automation of the end-to-end workflow.
-MLflow: For experiment tracking, model management, and deployment.
-Streamlit: For developing an interactive interface to display predictions and engage users.
+**ZenML:** For building and managing the machine learning pipeline, ensuring seamless integration and automation of the end-to-end workflow.
+<br>**MLflow:** For experiment tracking, model management, and deployment.
+<br>**Streamlit:** For developing an interactive interface to display predictions and engage users.
+
 Workflow:
 
 # Train the Model:
