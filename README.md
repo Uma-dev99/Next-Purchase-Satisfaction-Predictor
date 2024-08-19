@@ -4,9 +4,17 @@ The "Next Purchase Satisfaction Predictor" is a machine learning project designe
 
 The project utilizes the Brazilian E-Commerce Public Dataset by Olist, which includes detailed records of 100,000 orders from 2016 to 2018. This dataset encompasses various attributes such as order status, price, payment methods, freight performance, customer locations, product attributes, and customer reviews.
 
+## Tech Stack :
+
+MLops 
+<br>ZenML 
+<br>Catboost
+<br>Xgboost
+<br>Streamlit
+
 # Key Components:
 
-Data Ingestion and Cleaning:
+## Data Ingestion and Cleaning:
 
 Import and preprocess the dataset to create a clean and structured DataFrame.
 Handle missing values, remove unnecessary columns, and prepare features for modeling.
