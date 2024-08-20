@@ -4,9 +4,17 @@ The "Next Purchase Satisfaction Predictor" is a machine learning project designe
 
 The project utilizes the Brazilian E-Commerce Public Dataset by Olist, which includes detailed records of 100,000 orders from 2016 to 2018. This dataset encompasses various attributes such as order status, price, payment methods, freight performance, customer locations, product attributes, and customer reviews.
 
+## Tech Stack :
+
+MLops 
+<br>ZenML 
+<br>Catboost
+<br>Xgboost
+<br>Streamlit
+
 # Key Components:
 
-Data Ingestion and Cleaning:
+## Data Ingestion and Cleaning:
 
 Import and preprocess the dataset to create a clean and structured DataFrame.
 Handle missing values, remove unnecessary columns, and prepare features for modeling.
@@ -28,23 +36,24 @@ Create an interactive web application using Streamlit to showcase the model's pr
 Allow users to input features for a product and receive predicted satisfaction scores.
 Technologies:
 
-ZenML: For building and managing the machine learning pipeline, ensuring seamless integration and automation of the end-to-end workflow.
-MLflow: For experiment tracking, model management, and deployment.
-Streamlit: For developing an interactive interface to display predictions and engage users.
-Workflow:
+**ZenML:** For building and managing the machine learning pipeline, ensuring seamless integration and automation of the end-to-end workflow.
+<br>**MLflow:** For experiment tracking, model management, and deployment.
+<br>**Streamlit:** For developing an interactive interface to display predictions and engage users.
 
-# Train the Model:
+# Workflow:
+
+## Train the Model:
 
 Execute the training pipeline to process data, train the model, and evaluate its performance.
 
-# Deploy the Model:
+## Deploy the Model:
 
 Run the deployment pipeline to update and deploy the model if it meets performance thresholds.
 
-# Interact with the Model:
+## Interact with the Model:
 
 Use the Streamlit application to input new data and obtain predictions from the deployed model.
 
-# Outcome:
+## Outcome:
 
 The "Next Purchase Satisfaction Predictor" provides valuable insights into customer satisfaction, helping e-commerce businesses anticipate and improve the customer experience for future purchases. By leveraging advanced machine learning techniques and robust deployment practices, the project aims to enhance decision-making and drive better business outcomes.
